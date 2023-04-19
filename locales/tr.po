@@ -6616,7 +6616,7 @@ msgstr "sadece bir tık uzakta."
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
 msgid "Welcome to AbraBase"
-msgstr "Metabase' e Hoş Geldiniz"
+msgstr "AbraBase'e Hoş Geldiniz"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132
 msgid "Looks like everything is working. Now let’s get to know you, connect to your data, and start finding you some answers!"
