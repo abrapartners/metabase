@@ -9,7 +9,7 @@ describe(`setup on ${version}`, () => {
     cy.visit("/");
     // It redirects to the setup page
     cy.location("pathname").should("eq", "/setup");
-    cy.findByText("Welcome to Metabase");
+    cy.findByText("Welcome to AbraBase");
     cy.findByText("Let's get started").click();
 
     setupLanguage();

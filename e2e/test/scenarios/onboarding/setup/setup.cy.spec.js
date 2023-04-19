@@ -30,7 +30,7 @@ describe("scenarios > setup", () => {
         },
       });
       cy.location("pathname").should("eq", "/setup");
-      cy.findByText("Welcome to Metabase");
+      cy.findByText("Welcome to AbraBase");
       cy.findByTextEnsureVisible("Let's get started").click();
 
       // ========
@@ -162,7 +162,7 @@ describe("scenarios > setup", () => {
   it("should set up Metabase without first name and last name (metabase#22754)", () => {
     // This is a simplified version of the "scenarios > setup" test
     cy.visit("/");
-    cy.findByText("Welcome to Metabase");
+    cy.findByText("Welcome to AbraBase");
     cy.location("pathname").should("eq", "/setup");
     cy.findByTextEnsureVisible("Let's get started").click();
 
@@ -216,7 +216,7 @@ describe("scenarios > setup", () => {
   it("should allow pre-filling user details", () => {
     cy.visit(`/setup#123456`);
 
-    cy.findByText("Welcome to Metabase");
+    cy.findByText("Welcome to AbraBase");
     cy.findByTextEnsureVisible("Let's get started").click();
 
     cy.findByText("What's your preferred language?");
@@ -248,7 +248,7 @@ describeWithSnowplow("scenarios > setup", () => {
     cy.visit(`/setup`);
 
     // 2 - setup/step_seen
-    cy.findByText("Welcome to Metabase");
+    cy.findByText("Welcome to AbraBase");
     cy.button("Let's get started").click();
 
     // 3 - setup/step_seen
@@ -261,7 +261,7 @@ describeWithSnowplow("scenarios > setup", () => {
     blockSnowplow();
     cy.visit(`/setup`);
 
-    cy.findByText("Welcome to Metabase");
+    cy.findByText("Welcome to AbraBase");
     cy.button("Let's get started").click();
 
     expectGoodSnowplowEvents(0);

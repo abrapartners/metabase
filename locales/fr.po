@@ -6642,7 +6642,7 @@ msgid "is just a click away."
 msgstr "est à portée de clic."
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
-msgid "Welcome to Metabase"
+msgid "Welcome to AbraBase"
 msgstr "Bienvenue sur Metabase"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132

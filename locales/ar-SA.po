@@ -7313,7 +7313,7 @@ msgstr "على بعد نقرة واحدة فقط."
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
 #, fuzzy
-msgid "Welcome to Metabase"
+msgid "Welcome to AbraBase"
 msgstr "مرحبا بكم في قاعدة التعريف"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132

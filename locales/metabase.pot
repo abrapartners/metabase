@@ -3329,7 +3329,7 @@ msgid "What should we call you?"
 msgstr ""
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
-msgid "Welcome to Metabase"
+msgid "Welcome to AbraBase"
 msgstr ""
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:41

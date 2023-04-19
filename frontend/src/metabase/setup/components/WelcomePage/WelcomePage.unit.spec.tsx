@@ -16,7 +16,7 @@ describe("WelcomePage", () => {
 
     render(<WelcomePage {...props} />);
 
-    expect(screen.queryByText("Welcome to Metabase")).not.toBeInTheDocument();
+    expect(screen.queryByText("Welcome to AbraBase")).not.toBeInTheDocument();
   });
 
   it("should render after some time even if the locale is not loaded", () => {
@@ -27,7 +27,7 @@ describe("WelcomePage", () => {
     jest.advanceTimersByTime(310);
     rerender(<WelcomePage {...newProps} />);
 
-    expect(screen.getByText("Welcome to Metabase")).toBeInTheDocument();
+    expect(screen.getByText("Welcome to AbraBase")).toBeInTheDocument();
   });
 
   it("should render before the timeout if the locale is loaded", () => {
@@ -37,7 +37,7 @@ describe("WelcomePage", () => {
     const { rerender } = render(<WelcomePage {...oldProps} />);
     rerender(<WelcomePage {...newProps} />);
 
-    expect(screen.getByText("Welcome to Metabase")).toBeInTheDocument();
+    expect(screen.getByText("Welcome to AbraBase")).toBeInTheDocument();
   });
 });
 

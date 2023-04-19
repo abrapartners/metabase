@@ -6599,7 +6599,7 @@ msgid "is just a click away."
 msgstr "點擊一下"
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:39
-msgid "Welcome to Metabase"
+msgid "Welcome to AbraBase"
 msgstr "歡迎來到Metabase"
 
 #: frontend/src/metabase/setup/components/Setup.jsx:132
